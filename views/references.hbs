@@ -1,0 +1,9 @@
+{{#if resume.references.length}}
+<section id="References">
+    <h2>References</h2>
+    {{#each resume.references}}
+        {{#> item title=(getValueIfDiffFromPrevious @root.resume.references @index "name") subtitle=reference}}
+        {{/item}}
+    {{/each}}
+</section>
+{{/if}}
