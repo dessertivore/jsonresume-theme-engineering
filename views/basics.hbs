@@ -11,8 +11,14 @@
         {{#if location~}}
         <span class="vertical-separator">{{location.city}}, {{location.countryCode}}</span>
         {{~/if}}
+        {{#if github~}} 
+        <span class="vertical-separator">Github: {{wrapURL github}}</span>
+        {{~/if}}
+        {{#if linkedin~}}
+        <span class="vertical-separator">LinkedIn: {{wrapURL linkedin}}</span>
+        {{~/if}}
         {{#if website~}}
-        <span class="vertical-separator">{{wrapURL website}}</span>
+        <span class="vertical-separator">Website: {{wrapURL website}}</span>
         {{~/if}}
     </div>
     {{#if summary}}
