@@ -32,6 +32,15 @@
       }
     ]
   },
+  "projects": [
+    {
+      "company": "OpenAI assistant",
+
+      "startDate": "2024-03",
+      "endDate": "2024-05",
+      "highlights": ["OpenAI - Python - Postgres"]
+    }
+  ],
   "work": [
     {
       "company": "Pied Piper",
@@ -51,9 +60,7 @@
       "website": "http://www.hooli.xyz/",
       "startDate": "2014-01-01",
       "endDate": "2014-04-06",
-      "highlights": [
-        "Worked on optimizing the backend algorithms for Hooli"
-      ]
+      "highlights": ["Worked on optimizing the backend algorithms for Hooli"]
     },
     {
       "company": "Hooli",
@@ -61,9 +68,7 @@
       "website": "http://www.hooli.xyz/",
       "startDate": "2013-01-01",
       "endDate": "2014-01-01",
-      "highlights": [
-        "Contributed bugfixes and smaller features for Hooli"
-      ]
+      "highlights": ["Contributed bugfixes and smaller features for Hooli"]
     }
   ],
   "volunteer": [
@@ -74,9 +79,7 @@
       "startDate": "2012-01-01",
       "endDate": "2013-01-01",
       "summary": "Global movement of free coding clubs for young people.",
-      "highlights": [
-        "Awarded 'Teacher of the Month'"
-      ]
+      "highlights": ["Awarded 'Teacher of the Month'"]
     }
   ],
   "education": [
@@ -89,10 +92,7 @@
       "startDate": "2011-06-01",
       "endDate": "2014-01-01",
       "gpa": "GPA 4.0",
-      "courses": [
-        "DB1101 - Basic SQL",
-        "CS2011 - Java Introduction"
-      ]
+      "courses": ["DB1101 - Basic SQL", "CS2011 - Java Introduction"]
     }
   ],
   "awards": [
@@ -116,20 +116,12 @@
     {
       "name": "Web Development",
       "level": "Master",
-      "keywords": [
-        "HTML",
-        "CSS",
-        "Javascript"
-      ]
+      "keywords": ["HTML", "CSS", "Javascript"]
     },
     {
       "name": "Compression",
       "level": "Master",
-      "keywords": [
-        "Mpeg",
-        "MP4",
-        "GIF"
-      ]
+      "keywords": ["Mpeg", "MP4", "GIF"]
     }
   ],
   "languages": [
@@ -141,10 +133,7 @@
   "interests": [
     {
       "name": "Wildlife",
-      "keywords": [
-        "Ferrets",
-        "Unicorns"
-      ]
+      "keywords": ["Ferrets", "Unicorns"]
     }
   ],
   "references": [
