@@ -11,11 +11,14 @@
         {{#if location~}}
         <span class="vertical-separator">{{location.city}}, {{location.countryCode}}</span>
         {{~/if}}
+        </div>
+        <br>
+    <div class="profiles centered">
         {{#if github~}} 
-        <span class="vertical-separator">Github: {{wrapURL github}}</span>
+        <span class="vertical-separator"><img src="{{github-icon}}" height="12", width="12" alt="github-icon.jpg"/> Github: {{wrapURL github}}</span>
         {{~/if}}
         {{#if linkedin~}}
-        <span class="vertical-separator">LinkedIn: {{wrapURL linkedin}}</span>
+        <span class="vertical-separator"><img src="{{linkedin-icon}}" height="12" width="12" alt="linkedin-icon.jpg"/> LinkedIn: {{wrapURL linkedin}}</span>
         {{~/if}}
         {{#if website~}}
         <span class="vertical-separator">Website: {{wrapURL website}}</span>
