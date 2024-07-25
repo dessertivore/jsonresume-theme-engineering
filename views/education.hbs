@@ -2,23 +2,8 @@
 <section id="education">
     <h2>Education</h2>
     {{#each resume.education}}
-    {{#> item title=institution subtitle=studyType location=city startDate=startDate endDate=endDate}}
-    {{#if score}}
-    <ul>
-        <li>
-            <div class="score">
-                {{score}}
-            </div>
-        </li>
-        {{#if score2}}
-        <li>
-            <div class="score2">
-                {{score2}}
-            </div>
-        </li>
-        {{/if}}
+    {{#> item title=institution subtitle=(concat_subtitle studyType score area) location=city startDate=startDate endDate=endDate}}
     </ul>
-    {{/if}}
     {{#if courses.length}}
     <ul class="courses">
         {{#each courses}}

@@ -64,3 +64,7 @@ module.exports = {
     mediaType: 'print',
   },
 };
+
+handlebars.registerHelper('concat_subtitle', function(arg1, arg2, arg3) {
+  return `${arg1} (${arg2}) - ${arg3}`;
+});
