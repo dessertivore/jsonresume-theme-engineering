@@ -13,16 +13,12 @@
         {{~/if}}
         </div>
         <br>
+    {{#if profiles.length}}
     <div class="profiles centered">
-        {{#if github~}} 
-        <span class="vertical-separator"><img src="{{github-icon}}" height="12", width="12" alt="github-icon.jpg"/> {{wrapURL github}}</span>
-        {{~/if}}
-        {{#if linkedin~}}
-        <span class="vertical-separator"><img src="{{linkedin-icon}}" height="12" width="12" alt="linkedin-icon.jpg"/> {{wrapURL linkedin}}</span>
-        {{~/if}}
-        {{#if website~}}
-        <span class="vertical-separator">Website: {{wrapURL website}}</span>
-        {{~/if}}
+        {{#each profiles}}
+        <span class="vertical-separator"><i class="fab fa-{{network}}"></i><a href="{{url}}"> {{username}}</a></span>
+    {{~/each}}
+    {{~/if}}
     </div>
     {{#if summary}}
     <div class="summary">

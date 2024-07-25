@@ -8,5 +8,8 @@ resume.json:
 resume.pdf: resume.json index.js  $(HBS_TEMPLATES)
 	npm run export
 
+resume.html: resume.json index.js  $(HBS_TEMPLATES)
+	npm run exporthtml
+
 resume.png: resume.pdf
 	pdftoppm -png resume.pdf > resume.png
