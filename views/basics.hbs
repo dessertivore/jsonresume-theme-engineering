@@ -11,6 +11,10 @@
         {{#if location~}}
         <span class="vertical-separator">{{location.city}}, {{location.countryCode}}</span>
         {{~/if}}
+
+        {{#if url~}}
+        <span class="vertical-separator"><a href="{{url}}">{{url}}</a></span>
+        {{~/if}}
         </div>
         <br>
     {{#if profiles.length}}
